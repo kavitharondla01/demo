@@ -1,0 +1,43 @@
+/* body{ 
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+img{
+    height: 200px;
+    width: 100px;
+    transition: 2s;
+}
+.img1{
+    transform: skew skewX(55deg);
+    opacity: 0.3;
+}
+.img2{
+    transform: skewX(55deg);
+    margin-left: -290px;
+}
+.img2:hover{
+    .img2:hover {
+        transform: skew(0deg);
+        margin-left: -100px;
+        transition: 3s;
+    }
+/* } */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+img {
+    transition: 2s;
+    box-shadow: 2px 2px 20px black;
+}
+img:hover {
+    transform: matrix(2,0.5,0.5,2,100,50);
+    transition: 2s;
+}
+

@@ -1,0 +1,41 @@
+  body{
+    overflow: hidden;
+  }
+
+  img{
+    animation-name: zoom;
+    animation-duration: 3s;
+    animation-delay: 5s;
+    animation-direction:alternate;
+    margin-top: 100px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes zoom{
+    from{
+        transform:translateX(1300px);
+    }
+    20%{
+        transform:scale(3);
+    }
+    50%{
+        transform:translateY(200px);
+    }
+    90%{
+        transform:rotate(180px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

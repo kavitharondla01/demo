@@ -1,0 +1,15 @@
+div{
+    height: 50px;
+    width: 40px;
+    background-color: brown;
+    transition-duration:1s ;
+    transition-timing-function: steps(5);
+}
+div:hover{
+    width: 800;
+    background-color: rgb(164, 216, 112);
+    transition-duration: 3s;
+    transition-property: width;
+    transition-delay: 2s;
+    transition-timing-function: steps(20);
+}

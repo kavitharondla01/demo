@@ -1,0 +1,16 @@
+.women-fashion{
+    width: 400px;
+    height: 300px;
+    border: 1px solid lightcoral;
+    overflow: hidden;
+}
+img {
+    height: 400px;
+    width: 300px;
+    transition: 500ms;
+
+}
+img:hover{
+    transform: translate X(-20);
+    transition: 500ms;
+}

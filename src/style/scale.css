@@ -1,0 +1,16 @@
+
+ body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+img {
+    width: 100px;
+    height: 100px;
+    transition: 2s;
+}
+img:hover {
+   transform: scale(4, 3);
+   transition: 2s;
+}

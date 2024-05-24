@@ -1,0 +1,52 @@
+@keyframes blink
+{
+    from{
+        opacity: 0;
+        font-size: 0px;
+    }
+    to{
+        opacity:1;
+        font-size: 150px;
+    }
+}
+
+
+#heart{
+    animation-name: "heartfill";
+    animation-duration:2s;
+    animation-delay: 1s;
+    animation-iteration-count:infinite;
+    color: red;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.bi-heart-fill{
+    font-size: 150px;
+    animation-name: blink;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes heartfill{
+    from{
+        font-size: 70px;
+    }
+    25%{
+        font-size: 60px;
+    }
+    50%{
+        font-size: 50px;
+    }
+    75%{
+        font-size: 40px;
+    }
+    to{
+        font-size: 30px;
+    }
+}

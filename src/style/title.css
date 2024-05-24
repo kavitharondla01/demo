@@ -1,0 +1,50 @@
+@keyframes Blink
+{
+    from{
+        transform: rotate(0deg);
+        font-size: 20px;
+    }
+    50%{
+        color: red;
+        transform: rotate(-180deg);
+    }
+    to{
+        transform: rotate(360deg);
+        font-size: 120px;
+    }
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#title{
+    animation-name: blink;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    display: inline-block;
+    /* transform: rotate(180deg); */
+}
+#title1{
+    animation-name:blink;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    display:inline-block;
+}
+
+@keyframes blink{
+    from{
+        transform: rotate(0deg);
+        font-size: 20px;
+    }
+    50%{
+        color: red;
+        transform: rotate((-180deg));
+    }
+    to{
+        transform: rotate(360deg);
+        font-size: 120px;
+    }
+}
